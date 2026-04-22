@@ -498,13 +498,13 @@
       height: 22px;
     }
     .social-avatar {
-      width: 92px;
-      height: 92px;
+      width: 96px;
+      height: 96px;
       border-radius: 50%;
       margin: 0 auto 18px;
       overflow: hidden;
-      background: var(--cream);
-      border: 1.5px solid rgba(253,223,89,0.45);
+      background: var(--olive);
+      border: 1.5px solid rgba(253,223,89,0.5);
       flex-shrink: 0;
       position: relative;
     }
@@ -513,8 +513,9 @@
       object-fit: cover;
       object-position: center;
       display: block;
-      transform: scale(1.35);
-      transform-origin: center;
+    }
+    .social-cards .social-card:nth-child(2) .social-avatar img {
+      object-position: center 22%;
     }
     .social-handle {
       font-size: 15px;
